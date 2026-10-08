@@ -27,3 +27,5 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;ba
 .site-share img{width:220px;height:auto;border-radius:16px;box-shadow:0 6px 18px rgba(70,40,20,.10)}
 
 .qr-scene{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;padding:14px 4px;border-radius:22px;background:linear-gradient(135deg,#e6f3f7,#fff 50%,#e6f3f7);border:1px solid #b5d6e0}.site-share .qr-scene>img:not(.qr-side){width:210px;height:auto;flex-shrink:1;min-width:0}.site-share .qr-side{width:80px;height:170px;object-fit:cover;object-position:left center;background:none;border-radius:0;box-shadow:none;flex-shrink:1;min-width:0}.site-share .qr-side-right{object-position:right center}.site-share-actions{align-items:center;width:100%;text-align:center}.site-share-actions>a:not(.download-site-qr){color:#111}@media(max-width:520px){.site-share .qr-side{width:55px;height:140px}.site-share .qr-scene>img:not(.qr-side){width:190px}}
+
+.bingocard .rightcard{min-width:0;height:auto;white-space:normal;word-break:normal;overflow-wrap:normal;hyphens:manual;line-height:1.5}
